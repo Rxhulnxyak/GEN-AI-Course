@@ -1,15 +1,15 @@
+# Generative AI Q&A: Advanced Customer Service Chatbot
+**Built by: Rahul** 🚀
 
-# Generatve AI Q&A: Question and Answer System Based on Google Palm LLM and Langchain for E-learning company  
+This is an end-to-end, state-of-the-art LLM project utilizing Google Palm and LangChain. I built this Q&A system for an e-learning company called Nullclass (which provides data-related courses and virtual internships). By transforming their raw FAQ data into an interactive AI, this system dramatically reduces the workload of human staff by answering student questions instantly and accurately.
 
-This is an end to end LLM project based on Google Palm and Langchain. We are building a Q&A system for an e-learning company called Nullclass.Nullclass sells data related courses and virtual internships. They have thousands of learners who uses discord server or email to ask questions. This system will provide a streamlit based user interface for students where they can ask questions and get answers. 
+## 🌟 Next-Level Features
 
-
-## Project Highlights
-
-- Use a real CSV file of FAQs that Nullclass company is using right now. 
-- Their human staff will use this file to assist their course learners.
-- We will build an LLM based question and answer system that can reduce the workload of their human staff.
-- Students should be able to use this system to ask questions directly and get answers within seconds
+- **Modern Chat UI**: A sleek, conversational Streamlit interface with persistent chat history.
+- **Intelligent RAG System**: Leverages FAISS Vector Database and HuggingFace embeddings (`hkunlp/instructor-large`) to retrieve highly relevant context.
+- **Google PaLM Integration**: Uses Google's PaLM LLM for precise, context-aware answers.
+- **Source Inspection**: Users can expand the "View Source Context" tab to see exactly which FAQ document the AI used to formulate its answer.
+- **Admin Sidebar**: 1-click knowledgebase building directly from the UI.
 
 
 
@@ -18,12 +18,12 @@ This is an end to end LLM project based on Google Palm and Langchain. We are bui
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/aslin72/customer_service_chatbot_LLM.git
+  git clone https://github.com/Rxhulnxyak/GEN-AI-Course.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd customer_service_chatbot_LLM
+  cd GEN-AI-Course/GEN---AI-course/customer_service_chatbot_LLM
 ```
 3. Install the required dependencies using pip:
 
